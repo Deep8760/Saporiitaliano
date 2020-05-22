@@ -7,12 +7,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity extends AppCompatActivity {
     EditText text1,text2,deep;
-    Button Login,forgetpass,signup;
+    Button Login,signup;
+    TextView forgetpass;
     private FirebaseAuth firebaseAuth;
     public void deep(View abc){
         startActivity(new Intent(getApplicationContext(),Forgetpass.class));
@@ -22,10 +24,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        text1=(EditText)findViewById(R.id.email);
-        text2=(EditText)findViewById(R.id.pass);
-        signup=(Button) findViewById(R.id.button5);
-forgetpass=(Button)findViewById(R.id.button4);
+        text1=(EditText)findViewById(R.id.edittext1);
+        text2=(EditText)findViewById(R.id.pass1);
+        signup=(Button) findViewById(R.id.textView4);
+forgetpass=(TextView) findViewById(R.id.textView4);
         Login=(Button)findViewById(R.id.login) ;
 
         firebaseAuth=firebaseAuth.getInstance();
