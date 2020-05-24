@@ -5,15 +5,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#04323F"
+    android:background="#80CBC4"
     tools:context=".Registeruser">
+
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/user"
+        android:scrollbarSize="80dp"/>
 
     <EditText
         android:id="@+id/editText"
         android:layout_width="match_parent"
         android:layout_height="40dp"
+        android:shadowColor="F0F4C3"
+        android:textColorHighlight="F0F4C3"
+        android:background="#CFD8DC"
         android:layout_marginLeft="70dp"
         android:layout_marginTop="80dp"
+        android:layout_marginRight="70dp"
         android:ems="10"
         android:hint="name"
         android:inputType="textPersonName" />
@@ -24,7 +38,12 @@
         android:layout_height="40dp"
         android:layout_marginLeft="70dp"
         android:layout_marginTop="20dp"
-        android:hint="email" />
+        android:layout_marginRight="70dp"
+        android:hint="email"
+        android:background="#CFD8DC"
+        android:shadowColor="F0F4C3"
+        android:textColorHighlight="F0F4C3"
+        />
 
     <EditText
         android:id="@+id/edittext2"
@@ -32,19 +51,22 @@
         android:layout_height="40dp"
         android:layout_marginLeft="70dp"
         android:layout_marginTop="20dp"
-        android:layout_marginRight="20dp"
-        android:hint="pass" />
+        android:layout_marginRight="70dp"
+        android:hint="pass"
+        android:background="#CFD8DC"/>
 
     <EditText
         android:id="@+id/pass1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
         android:layout_marginLeft="70dp"
         android:layout_marginTop="20dp"
+        android:layout_marginRight="70dp"
         android:ems="10"
         android:hint="phone number"
         android:inputType="textPassword"
         android:textColor="#B2FF59"
+        android:background="#CFD8DC"
         android:textSize="20dp"
         tools:layout_editor_absoluteX="81dp"
         tools:layout_editor_absoluteY="103dp" />
