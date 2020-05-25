@@ -25,21 +25,23 @@
         android:shadowColor="F0F4C3"
         android:textColorHighlight="F0F4C3"
         android:background="#CFD8DC"
-        android:layout_marginLeft="70dp"
         android:layout_marginTop="80dp"
-        android:layout_marginRight="70dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
         android:ems="10"
         android:hint="name"
+        android:paddingLeft="10dp"
         android:inputType="textPersonName" />
 
     <EditText
         android:id="@+id/edittext1"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:layout_marginLeft="70dp"
         android:layout_marginTop="20dp"
-        android:layout_marginRight="70dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
         android:hint="email"
+        android:paddingLeft="10dp"
         android:background="#CFD8DC"
         android:shadowColor="F0F4C3"
         android:textColorHighlight="F0F4C3"
@@ -49,20 +51,22 @@
         android:id="@+id/edittext2"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:layout_marginLeft="70dp"
+        android:layout_marginLeft="80dp"
         android:layout_marginTop="20dp"
-        android:layout_marginRight="70dp"
-        android:hint="pass"
-        android:background="#CFD8DC"/>
+        android:layout_marginRight="80dp"
+        android:background="#CFD8DC"
+        android:paddingLeft="10dp"
+        android:hint="password" />
 
     <EditText
         android:id="@+id/pass1"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:layout_marginLeft="70dp"
+        android:layout_marginLeft="80dp"
         android:layout_marginTop="20dp"
-        android:layout_marginRight="70dp"
+        android:layout_marginRight="80dp"
         android:ems="10"
+        android:paddingLeft="10dp"
         android:hint="phone number"
         android:inputType="textPassword"
         android:textColor="#B2FF59"
@@ -80,15 +84,19 @@
         android:layout_marginTop="40dp"
         android:layout_marginRight="50dp"
         android:background="#04323F"
-        android:text="signup" />
+        android:text="Register" />
 
     <TextView
         android:id="@+id/text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="60dp"
         android:onClick="onclick"
-        android:text="back to main page" />
+        android:textSize="20dp"
+        android:text=" Main page"
+        android:paddingLeft="10dp"/>
 
 
 </LinearLayout>
