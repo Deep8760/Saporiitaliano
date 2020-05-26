@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "624643838812",
+    "firebase_url": "https://saporiitaliano.firebaseio.com",
+    "project_id": "saporiitaliano",
+    "storage_bucket": "saporiitaliano.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624643838812:android:52eaaca441d23b8887e799",
+        "android_client_info": {
+          "package_name": "com.example.saporiitaliano"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "624643838812-m02tpl84et95t6mu66r9o2m04tecbhp3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqBQQyLfBUQdMjwNq-nJVeNsrI5q-nDcU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "624643838812-m02tpl84et95t6mu66r9o2m04tecbhp3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
